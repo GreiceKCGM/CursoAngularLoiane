@@ -14,7 +14,7 @@ export class DiretivaNgclassComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  onclick(){
+  onclick(): void {
     this.meuFavorito = !this.meuFavorito;
   }
 
